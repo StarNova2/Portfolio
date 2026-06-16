@@ -2,17 +2,21 @@ html{
     font-family: sans-serif;
 }
 
+.colors{
+    color-scheme: #D3D3FF, #9400D3,#D8BFD8,#ED80E9;
+}
+
+.extremities{
+    background-color: #4b0a6e;
+    border-top: #000000 solid 5px;
+    border-bottom: #000000 solid 5px;
+}
+
 header{
     /*container style*/
-    background-color: #000067;
     position: sticky;
     top: 0;
-    border-top: #000050;
-    border-bottom: #000050;
-    border-left: #000067;
-    border-right: #000067;
-    border-style:solid;
-    border-width: 5px;
+    display: grid;
 
     /*contents style*/
 
@@ -23,14 +27,16 @@ header{
 
 }
 
-/* body{
+body{
     /*container style*/
-    
+    margin: 0;
+    padding: 0;
+    width: 100%;
 
     /*contents style*/
 
     /*text style*/
-/*}*/
+}
 
 .site{
     min-height: 100dvh;
@@ -42,10 +48,10 @@ header{
 main{
     /*container style*/
     background: #0f0c29;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right #24243e, #302b63, #0f0c29);
-    background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    background: -webkit-linear-gradient(to bottom, #D3D3FF, #9400D3);
+    background: linear-gradient(to bottom, #D3D3FF, #9400D3);
     height: 100%;
-    min-height: 100dvh;    
+    margin-bottom: 35px;
     display: flex;
     flex-direction: column;
     
@@ -55,7 +61,7 @@ main{
     text-align: justify;
 }
 
-.contents{
+#presentation{
     /*container style*/
     width: 75%;
     margin-left: auto;
@@ -70,16 +76,62 @@ main{
     /*text style*/
 }
 
-footer{
+#skills{
     /*container style*/
-    background-color: #000067;
-    margin-top: auto;
-
+    width: 75%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 15px;
+    padding: 20px;
 
     /*contents style*/
 
+    /*text style*/
+}
+
+#projects-container{
+    /*container style*/
+    display: grid;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    gap: 15px;
+
+    /*contents style*/
+
+    /*text style*/
+}
+
+.project{
+    /*container style*/
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 15px;
+    padding: 20px;
+
+    /*contents style*/
+
+    /*text style*/
+}
+
+footer{
+    /*container style*/
+    margin-top: auto;
+
+    /*contents style*/
 
     /*text style*/
     color: #FFFFFF;
     text-align: center;
+}
+
+#nothing{
+    color: 0;
+    /*container style*/
+
+    /*contents style*/
+
+    /*text style*/
 }
