@@ -1,5 +1,6 @@
 html{
     font-family: sans-serif;
+    scrollbar-width: thin;
 }
 
 .colors{
@@ -7,24 +8,12 @@ html{
 }
 
 .extremities{
-    background-color: #4b0a6e;
-    border-top: #000000 solid 5px;
-    border-bottom: #000000 solid 5px;
+    background-color: #390554;
 }
 
-header{
-    /*container style*/
-    position: sticky;
-    top: 0;
-    display: grid;
-
-    /*contents style*/
-
-    /*text style*/
-    color: #FFFFFF;
-    text-align: left;
-    padding-inline-start: 12%;
-
+.logo{
+    min-height: 15px;
+    max-height: 50px;
 }
 
 body{
@@ -32,9 +21,9 @@ body{
     margin: 0;
     padding: 0;
     width: 100%;
-
+    
     /*contents style*/
-
+    
     /*text style*/
 }
 
@@ -45,11 +34,56 @@ body{
     grid-template-columns: minmax(0, 1fr);
 }
 
+header{
+    /*container style*/
+    position: sticky;
+    top: 0;
+    border-bottom: #AFAFAF solid 1px;
+    padding: 5px;
+    
+    /*contents style*/
+    display: grid;
+    grid-template-columns:  auto 1fr auto;
+    column-gap: 10px;
+    grid-template-rows: auto;
+
+    /*text style*/
+    color: #FFFFFF;
+    text-align: left;
+    padding-inline-start: 7%;
+    padding-inline-end: 7%;
+    font-size: small;
+
+}
+
+#logo_title{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    text-decoration: none;
+    column-gap: 10px;
+    color: #FFFFFF;
+    
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.socials{
+    size: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    column-gap: 5px;
+    
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 main{
     /*container style*/
     background: #0f0c29;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #D3D3FF, #9400D3);
-    background: linear-gradient(to bottom, #D3D3FF, #9400D3);
+    background: -webkit-linear-gradient(to bottom, #000000, #7b18b0,#000000);
+    background: linear-gradient(to bottom,#000000, #7b18b0,#000000);
     height: 100%;
     margin-bottom: 35px;
     display: flex;
@@ -61,19 +95,28 @@ main{
     text-align: justify;
 }
 
-#presentation{
-    /*container style*/
-    width: 75%;
+.contents{
+    width: 65%;
+    margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
-    background-color: rgba(255, 255, 255, 0.75);
     border-radius: 15px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+#presentation{
+    /*container style*/
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
     padding: 20px;
 
     /*contents style*/
 
     /*text style*/
+    color: #FFFFFF;
 }
 
 #skills{
@@ -82,7 +125,7 @@ main{
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgba(255, 255, 255, 0.75);
+    background-color: #FFFFFF;
     border-radius: 15px;
     padding: 20px;
 
@@ -107,7 +150,7 @@ main{
 
 .project{
     /*container style*/
-    background-color: rgba(255, 255, 255, 0.75);
+    background-color: #FFFFFF;
     border-radius: 15px;
     padding: 20px;
 
@@ -119,6 +162,8 @@ main{
 footer{
     /*container style*/
     margin-top: auto;
+    border-top: #AFAFAF solid 1px;
+    display: grid;
 
     /*contents style*/
 
