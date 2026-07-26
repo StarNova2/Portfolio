@@ -6,6 +6,8 @@
         <title>Tanguy Collet's Portfolio</title>
         <link rel="page icon" href="src/assets/logo_space.ico" type="image/x-icon">
         <link href="src/style/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="src/style/classes.css">
+        <link rel="stylesheet" href="src/style/id.css">
     </head>
     <body>
         <div class="site">
@@ -27,29 +29,50 @@
                         <img class="logo" width="48" height="48" src="https://img.icons8.com/material/48/linkedin--v1.png" alt="linkedin_logo">
                     </a>
                 </nav>
+                <select class="language_select">
+                    <option value="English" selected>EN</option>
+                    <option value="French">FR</option>
+                </select>
             </header>
             <main>
                 <div id="presentation">
-                        <h1>
-                            Tanguy Collet's Portfolio
-                        </h1>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis cum dignissimos iusto explicabo impedit consectetur natus quas tempora quibusdam autem, magni incidunt earum labore consequuntur obcaecati accusantium commodi? Accusamus veniam quasi vitae nihil adipisci, modi ipsam cumque deleniti, error dicta non fugiat magnam amet quidem atque ab. At quidem maxime tenetur consectetur laudantium perspiciatis dolorum, rem harum magni velit corrupti voluptatibus consequuntur, asperiores iusto cupiditate voluptates. Recusandae ex officiis, delectus omnis minima sit? Sequi, reiciendis animi, doloribus, aut eligendi sint natus repellendus aliquid ex molestiae iste. Ut neque blanditiis eveniet placeat est tempore quia cupiditate porro quis, modi magnam doloremque, libero quos cumque optio explicabo et perspiciatis dicta natus, expedita ipsam nisi unde! Tenetur eum exercitationem temporibus enim quo totam!
-                    </div>
+                    <h1>
+                        Tanguy Collet's Portfolio
+                    </h1>
+                    <p>
+                        Currently in a work-study program at the ESGI in Paris,
+                        I study IT with a speciality in IA and Big Data,
+                        and I am currently working at the Customer Support Center of Thales in Châtellerault
+                    </p>
+                </div>
                 <div class="contents">
-                    <div id="skills">
-                        <h1>
-                            Here are the things i can do
+                    <div class="main-container">
+                        <h1 id="content_title">
+                            SKILLS
                         </h1>
                         <p>
 
                         </p>
-                        <a href="src/pages/skills.html">Click here to see my projects in detail</a>
+                        <a href="src/pages/skills.html">Click here to see my skills in detail</a>
                     </div>
-                    <div id="Schooling">
-
+                    <div class="main-container">
+                        <div id = "ESGI">
+                            <h2>
+                                ESGI (2025-)
+                            </h2>
+                        </div>
+                        <div id="Polytech">
+                            <h2>
+                                Polytech Tours (2022-2024)
+                            </h2>
+                        </div>
+                        <div id="highschool">
+                            <h2>
+                                Highschool (2019-2022)
+                            </h2>
+                        </div>
                     </div>
-                    <div id="projects-container">
+                    <div class="main-container">
                         <div class="project" id="project1">
                             some text
                         </div>
@@ -59,6 +82,7 @@
                         <div class="project" id="project3">
                             some text
                         </div>
+                        <a href="src/pages/projects.html">Click here to see my projects in detail</a>
                     </div>
                 </div>
             </main>

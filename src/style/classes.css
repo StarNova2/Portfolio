@@ -1,0 +1,57 @@
+.logo{
+    min-height: 15px;
+    max-height: 50px;
+}
+
+.extremities{
+    background-color: #390554;
+}
+
+.socials{
+    size: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    column-gap: 5px;
+    
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.site{
+    min-height: 100dvh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: minmax(0, 1fr);
+}
+
+.language_select{
+    margin: auto;
+}
+
+.main-container{
+    /*container style*/
+    width: 85%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    padding: 20px;
+
+    /*contents style*/
+    text-align: center;
+
+    /*text style*/
+}
+
+.project{
+    /*container style*/
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    padding: 20px;
+
+    /*contents style*/
+
+    /*text style*/
+}

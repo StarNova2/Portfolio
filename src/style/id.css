@@ -1,0 +1,44 @@
+#logo_title{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    text-decoration: none;
+    column-gap: 10px;
+    color: #FFFFFF;
+    
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#content_title{
+    /*container style*/
+    width: 100%;
+    background-color: #CCCCCC;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    border-radius: 15px;
+    padding: 5px;
+
+
+    /*contents style*/
+
+    /*text style*/
+}
+
+#presentation{
+    /*container style*/
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    padding: 20px;
+
+    /*contents style*/
+
+    /*text style*/
+    color: #FFFFFF;
+}
+
+
+

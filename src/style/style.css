@@ -3,19 +3,6 @@ html{
     scrollbar-width: thin;
 }
 
-.colors{
-    color-scheme: #D3D3FF, #9400D3,#D8BFD8,#ED80E9;
-}
-
-.extremities{
-    background-color: #390554;
-}
-
-.logo{
-    min-height: 15px;
-    max-height: 50px;
-}
-
 body{
     /*container style*/
     margin: 0;
@@ -27,23 +14,16 @@ body{
     /*text style*/
 }
 
-.site{
-    min-height: 100dvh;
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-    grid-template-columns: minmax(0, 1fr);
-}
-
 header{
     /*container style*/
     position: sticky;
     top: 0;
-    border-bottom: #AFAFAF solid 1px;
+    border-bottom: #AFAFAF solid 3px;
     padding: 5px;
     
     /*contents style*/
     display: grid;
-    grid-template-columns:  auto 1fr auto;
+    grid-template-columns:  auto 1fr auto auto;
     column-gap: 10px;
     grid-template-rows: auto;
 
@@ -54,29 +34,6 @@ header{
     padding-inline-end: 7%;
     font-size: small;
 
-}
-
-#logo_title{
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto;
-    text-decoration: none;
-    column-gap: 10px;
-    color: #FFFFFF;
-    
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
-.socials{
-    size: 100%;
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto;
-    column-gap: 5px;
-    
-    margin-top: auto;
-    margin-bottom: auto;
 }
 
 main{
@@ -100,69 +57,16 @@ main{
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
+    border:#FFFFFF solid 3px;
     border-radius: 15px;
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.75);
 }
 
-#presentation{
-    /*container style*/
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 15px;
-    padding: 20px;
-
-    /*contents style*/
-
-    /*text style*/
-    color: #FFFFFF;
-}
-
-#skills{
-    /*container style*/
-    width: 75%;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #FFFFFF;
-    border-radius: 15px;
-    padding: 20px;
-
-    /*contents style*/
-
-    /*text style*/
-}
-
-#projects-container{
-    /*container style*/
-    display: grid;
-    width: 75%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    gap: 15px;
-
-    /*contents style*/
-
-    /*text style*/
-}
-
-.project{
-    /*container style*/
-    background-color: #FFFFFF;
-    border-radius: 15px;
-    padding: 20px;
-
-    /*contents style*/
-
-    /*text style*/
-}
-
 footer{
     /*container style*/
     margin-top: auto;
-    border-top: #AFAFAF solid 1px;
+    border-top: #AFAFAF solid 3px;
     display: grid;
 
     /*contents style*/
@@ -170,13 +74,4 @@ footer{
     /*text style*/
     color: #FFFFFF;
     text-align: center;
-}
-
-#nothing{
-    color: 0;
-    /*container style*/
-
-    /*contents style*/
-
-    /*text style*/
 }
